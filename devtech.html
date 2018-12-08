@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DevTech</title>
+    <link rel="stylesheet" type="text/css" href="devtech1.css">
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+<!-- a tag span sepada a palavra para que a parte desejada seja possível modificar no css sem afetar todo o junto, como deixa o ínicio da palavra de uma cor e o final de outra-->
+<!-- neste caso com o span a palavra DevTech foi separada para que o Dev seja de um jeito e o Tech de outro-->
+        <h1>Dev<span class="branco">Tech</span></h1>
+      </div>
+<!-- Nav é a tag para informar os link de navegação da página-->
+      <nav>
+        <a href="#">Celular</a>
+        <a href="#">Notebook</a>
+        <a href="#">PC</a>
+        <a href="#">TV</a>
+      </nav>
+    </header>
+<!-- a tag section é utilizada para criar seções dentro da página-->
+<!-- dentro da <section> estamos dividindo em post e sidebar-->
+    <section>
+      <div id="post">
+<!-- Neste caso está sendo informado que dentro da div do id=post contém as class=postagens(é considerada como classe pois podemos ter várias postagens dentro da página, diferente do id=post onde este será único, não terá outra campo considerado como post)-->
+      <div class="postagem">
+        <h2>Título post 1</h2>
+<!-- dentro do span criamos a class=dataPost para que seja modificado sem interferir no título-->
+        <span class="dataPost">Postado 01 de dezembro de 2018</span>
+        <img src="img/imagem1.jpg">
+        <p>Quando pensamos em quanto a tecnologia está inserida em nossas vidas, chegamos a sentir saudades do passado. Havia um tempo sem celulares, sem ipods, sem computadores, sem videogames. Uma época em que o trabalho era feito, as pessoas voltavam para casa, assistiam televisão e iam ler, conversar, enfim, viver.
+Hoje, vivemos uma época em que estar fora da tecnologia é estar fora do mundo.
+A tecnologia deixou de ser um simples diferencial no trabalho, transformou-se em obrigatoriedade. Sem tecnologia básica de um computador e internet, ter emprego hoje é quase impossível.
+        </p>
+        <a href="http://www.administradores.com.br/artigos/tecnologia/a-tecnologia-e-a-vida-de-hoje/45963/">Leia Mais</a>
+      </div>
+      </div>
+      <hr>
+      <div id="sidebar">
+        <div class="conteudo-lateral">
+          <h3>Postagens Recentes</h3>
+          <div class="texto-lateral">
+            <p>Mulheres na Tecnologia (/MNT) é uma organização sem fins lucrativos cuja missão é contribuir para o protagonismo feminino na construção de um mundo sustentável na era digital.</p>
+            <a href="https://mulheresnatecnologia.org/sobre/quem-somos">Saiba Mais</a>
+          </div>
+<!-- a tag hr cria uma linha sólida abaixo do conteúdo, como se fosse de finalização-->
+        <hr>
+          <div class="texto-lateral">
+            <p>Conheça os caminhos que afastam mulheres da programação e por que é preciso mudar essa realidade.</p>
+            <a href="http://futura.org.br/trilhas-do-conhecimento/mulheres-na-tecnologia-mitos-e-desafios/#">Saiba Mais</a>
+          </div>
+        </div>
+        <div class="conteudo-lateral">
+          <h3>Categorias></h3>
+          <a href="#">Celular</a><br>
+          <a href="#">Notebook</a><br>
+          <a href="#">PC</a><br>
+          <a href="#">TV</a><br>
+        </div>
+      </div>
+
+    </section>
+<!-- footer é para criação de rodapé-->
+    <footer> Todos os direitos reservados </footer>
+
+
+  </body>
+</html>

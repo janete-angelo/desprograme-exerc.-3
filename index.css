@@ -1,0 +1,22 @@
+/*esta sendo informado que determinada class deve ser modificada conforme as solicitações abaixo*/
+div.card{
+/*altura*/
+  width: 250px;
+/*largura*/
+  height: 400px;
+/*para que seja centralizado*/
+  text-align: center;
+}
+div.header{
+/*o plano de fundo será determinada cor*/
+  background-color: #4CAF50;
+/*a cor da letra*/
+  color: white;
+/*o espaçamento interno*/
+  padding: 10px;
+/*o tamanho da letra*/
+  font-size: 40px;
+}
+div.container{
+  padding: 20px;
+}

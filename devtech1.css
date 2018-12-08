@@ -1,0 +1,121 @@
+/* ao utilizar o * esta sendo informado para o navegador que deseja apagar a pré configuração existe (chrome, explorer,etc) e que seja considerada as informações abaixo*/
+*{
+/*a margem será zerada*/
+  margin: 0;
+  padding: 0;
+}
+/* todo o conteúdo terá o tamanho de 16px, foi informado o estilo de letra e a cor de fundo*/
+body{
+  font-size: 16px;
+  font-family: "Trebuchet MS", helvetica, sans-serif;
+  background: #e6e6e6;
+}
+/*neste caso será modificada a cor de fundo da tag header informada no html*/
+header{
+  background:#F7B000;
+/* para espaçamento interno*/
+  padding: 15px;
+/* para centralizar o texto*/
+  text-align: center;
+}
+/* quando é utilizado ID, para que seja mencionada no css é preciso informar #*/
+/* neste caso as definições do ID logo será aplicado também no conteúdo da tag NAV*/
+#logo, nav{
+  padding: 10px;
+}
+/* foi colocada uma cor e modificado o tamanho da letra*/
+h1{
+  color:#4e4e4e;
+  font-size: 40px;
+}
+/* da mesma forma que para mencionar o conteúdo definido como ID é utilizado #, para os casos class é identificado no css como .*/
+.branco{
+  color: #fff;
+}
+/*está sendo solicitado que na tag a(responsavel pela referencia dos links) seja retirado o sublinhado dos links*/
+a{
+  text-decoration: none;
+}
+/* é chamado de pseudo classes este tipo de modificação, onde estamos informando que: ao visitar os links (a:visited)o campo deve ficar com uma cor diferente; quando passar o mouse (a:hover) deve aparecer de outra forma*/
+a:link,a:visited{
+  color:#f7b600;
+  padding: 8px 12px;
+}
+a:hover{
+  color:#f7b600;
+  background: #fff;
+  text-decoration: none;
+}
+section{
+  width:920px;
+  margin: 0 auto;
+}
+/* width para definição de altura; o id=post será posicionado do lado esquerdo; o id=sidebar a direita*/
+#post{
+  width: 660px;
+  float:left;
+}
+#sidebar{
+  width: 240px;
+  float: right;
+}
+/*estamos informando a cor doc rodapé*/
+footer{
+  background: #ccc;
+/* o clear fixa a parte solicitada, neste caso estamos fixando o rodapé*/
+  clear:both;
+  text-align: center;
+  padding: 15px;
+}
+.postagem{
+/* margin-bottom é para definir a margem inferior*/
+  margin-bottom: 20px;
+  background: white;
+  padding: 20px;
+}
+img{
+  width: 620px;
+}
+section{
+  width: 920px;
+  margin: 0 auto;
+  padding: 15px;
+}
+.dataPost{
+/* além do px para ajustar os tamanhos, podemos usar o EM. Por padrão o navegador considera o contéudo com 16px, este mesmo tamanho EM é igual a 1, ou seja, 16px=1em*/
+  font-size: 0.8em;
+/* vamos criar uma linha na parte inferior(bottom) da data do post, sendo definido que essa linha será sólida e sua cor*/
+  border-bottom: 1px solid #f4f4f4;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+/* VERIFICAR SOBRE ESTE ITEM: display defini o comportamento de exibição do elemento*/
+  display: block;
+  padding: 10px;
+}
+/*Novamento o utilizado de pseudo classe, neste caso estamos modificando o link que encontrasse na parte de navegação<nav>, sendo informada cor que deve aparecer no caso de uma visita*/
+nav a:link, nav a:visited{
+  color: #fff;
+  padding: 8px 12px;
+}
+nav a:hover{
+  color:#f7b600;
+  background: #fff;
+  text-decoration: none;
+}
+/*Vamos personalizar a parte lateral da página*/
+/*Como é uma class é preciso usar . no ínicio*/
+.conteudo-lateral{
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+h3{
+  color: #5656556;
+  background: #ccc;
+  padding: 5px;
+}
+.texto-lateral{
+  font-size: 0.8em;
+  padding: 5px;
+
+}
